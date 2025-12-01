@@ -1,18 +1,27 @@
 {
+  "manifest_version": 2,
+  "name": "Czo Close Tabs Right",
+  "version": "1.2.5",
+  "description": "__MSG_extensionDescription__",
+  "homepage_url": "https://github.com/czodroid/CzoCloseTabsRight",
+
   "applications": {
     "gecko": {
       "strict_min_version": "53.0"
     }
   },
 
-  "description": "__MSG_extensionDescription__",
-  "homepage_url": "https://github.com/mkopec/close-tabs-to-the-right",
-  "manifest_version": 2,
-  "name": "__MSG_extensionName__",
-  "version": "1.2.4",
+  "icons": {
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "96": "icons/96.png",
+    "128": "icons/128.png"
+  },
 
   "background": {
-    "scripts": ["background.js"]
+    "scripts": [
+      "background.js"
+    ]
   },
 
   "permissions": [

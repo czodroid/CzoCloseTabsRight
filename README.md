@@ -1,3 +1,9 @@
+# Czo Close Tabs Right
+
+For unwanted automatic updates, I created a clone.
+
+Original copyright: https://github.com/mkopec/close-tabs-to-the-right
+
 # Close Tabs to the Right
 This WebExtension (re)adds a context menu option to browser tabs to close tabs to the right of the selected one.
 Tested with Firefox 78.

@@ -1,2 +1,5 @@
-web-ext-artifacts
-.web-extension-id
+*.sw?
+.DS_Store
+/.web-extension-id
+/web-ext-artifacts/
+
