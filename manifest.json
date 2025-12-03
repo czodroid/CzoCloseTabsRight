@@ -5,15 +5,21 @@
   "description": "__MSG_extensionDescription__",
   "homepage_url": "https://github.com/czodroid/CzoCloseTabsRight",
 
-  "background": {
-    "scripts": [
-      "background.js"
-    ]
+  "browser_specific_settings": {
+    "gecko": {
+      "data_collection_permissions": {
+        "required": ["none"]
+      },
+      "id": "CzoCloseTabsRight@czo.wf",
+      "strict_min_version": "142.0"
+    }
   },
 
-  "permissions": [
-    "contextMenus"
-  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": ["contextMenus"],
 
   "default_locale": "en"
 }
