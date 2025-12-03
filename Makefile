@@ -1,15 +1,15 @@
 # Filename: Makefile
 # Author: Olivier Sirol <czo@free.fr>
-# License: GPL-2.0
+# License: GPL-2.0 (http://www.gnu.org/copyleft)
 # File Created: févr. 2021
-# Last Modified: vendredi 12 février 2021, 02:09
-# Edit Time: 0:05:11
+# Last Modified: Monday 01 December 2025, 21:24
+# Edit Time: 0:05:44
 # Description:
 #
 # $Id:$
 #
 
-all: 
+all:
 	web-ext build
 	@echo "<- all done!"
 
@@ -23,8 +23,10 @@ size:
 	xdotool selectwindow windowsize 1280 800
 
 clean:
-	rm -fr web-ext-artifacts 
+	rm -fr web-ext-artifacts
 	@echo "<- clean done!"
+
+re: clean all
 
 .PHONY: all clean
 

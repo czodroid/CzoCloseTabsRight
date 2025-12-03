@@ -2,6 +2,8 @@
 
 For unwanted automatic updates, I created a clone.
 
+ScreenShot: ![Img CzoTab](store/ff-CzoCloseTabsRight.png)
+
 Original copyright: https://github.com/mkopec/close-tabs-to-the-right
 
 # Close Tabs to the Right
