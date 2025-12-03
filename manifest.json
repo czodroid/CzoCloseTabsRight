@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Czo Close Tabs Right",
   "version": "1.2.5",
   "description": "__MSG_extensionDescription__",
@@ -10,8 +10,8 @@
       "data_collection_permissions": {
         "required": ["none"]
       },
-      "id": "CzoCloseTabsRight@czo.org",
-      "strict_min_version": "142.0"
+      "id": "CzoCloseTabsRight@czo",
+      "strict_min_version": "78.0"
     }
   },
 
